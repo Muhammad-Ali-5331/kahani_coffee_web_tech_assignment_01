@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu — Kahani Coffee House</title>
+<meta name="description" content="Browse hot and cold brews, and fresh bakes at Kahani Coffee House.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav wrap">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">Kahani</span>
+      <span class="brand-sub">Coffee House</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="menu.html" aria-current="page">Menu</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<main>
+
+  <section class="wrap">
+    <p class="eyebrow">The counter</p>
+    <h1 style="max-width: 18ch;">A menu worth reading slowly.</h1>
+    <p class="lede">Filter by what you're in the mood for — hot, cold, or something to go with it.</p>
+  </section>
+
+  <section class="wrap">
+    <div class="filter-bar" role="group" aria-label="Filter menu by category">
+      <button class="filter-btn is-active" data-filter="all">All items</button>
+      <button class="filter-btn" data-filter="hot">Hot brews</button>
+      <button class="filter-btn" data-filter="cold">Cold brews</button>
+      <button class="filter-btn" data-filter="bakes">Bakes</button>
+    </div>
+
+    <div class="menu-grid">
+      <article class="menu-item" data-category="hot">
+        <div class="menu-item-top"><h4>Qissa Karak</h4><span class="menu-price">Rs 420</span></div>
+        <span class="menu-tag">Hot brew</span>
+        <p>Double-steeped black tea and espresso, condensed milk, a pinch of cardamom.</p>
+      </article>
+      <article class="menu-item" data-category="hot">
+        <div class="menu-item-top"><h4>Single-Origin Pour Over</h4><span class="menu-price">Rs 550</span></div>
+        <span class="menu-tag">Hot brew</span>
+        <p>A rotating single farm lot, brewed to order and talked through by whoever's on bar.</p>
+      </article>
+      <article class="menu-item" data-category="hot">
+        <div class="menu-item-top"><h4>Gur Latte</h4><span class="menu-price">Rs 480</span></div>
+        <span class="menu-tag">Hot brew</span>
+        <p>Espresso and steamed milk sweetened with jaggery instead of sugar.</p>
+      </article>
+      <article class="menu-item" data-category="cold">
+        <div class="menu-item-top"><h4>Rooftop Cold Brew</h4><span class="menu-price">Rs 480</span></div>
+        <span class="menu-tag">Cold brew</span>
+        <p>18-hour steeped Ethiopian beans, poured over ice with a splash of orange peel syrup.</p>
+      </article>
+      <article class="menu-item" data-category="cold">
+        <div class="menu-item-top"><h4>Falsa Espresso Tonic</h4><span class="menu-price">Rs 520</span></div>
+        <span class="menu-tag">Cold brew</span>
+        <p>Double espresso, tonic water, and falsa syrup made fresh each summer.</p>
+      </article>
+      <article class="menu-item" data-category="cold">
+        <div class="menu-item-top"><h4>Iced Karak</h4><span class="menu-price">Rs 440</span></div>
+        <span class="menu-tag">Cold brew</span>
+        <p>Our signature karak, shaken over ice, never watered down.</p>
+      </article>
+      <article class="menu-item" data-category="bakes">
+        <div class="menu-item-top"><h4>Cardamom Bun</h4><span class="menu-price">Rs 350</span></div>
+        <span class="menu-tag">Bake</span>
+        <p>Laminated dough, cardamom sugar crust, baked fresh every morning.</p>
+      </article>
+      <article class="menu-item" data-category="bakes">
+        <div class="menu-item-top"><h4>Pistachio Biscotti</h4><span class="menu-price">Rs 280</span></div>
+        <span class="menu-tag">Bake</span>
+        <p>Twice-baked, lightly sweet, made for dunking into a hot karak.</p>
+      </article>
+      <article class="menu-item" data-category="bakes">
+        <div class="menu-item-top"><h4>Seasonal Fruit Tart</h4><span class="menu-price">Rs 480</span></div>
+        <span class="menu-tag">Bake</span>
+        <p>Whatever fruit is in season, on a short-crust base with vanilla custard.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Good to know</p>
+        <h2>Opening hours</h2>
+      </div>
+      <table class="hours-table">
+        <thead>
+          <tr><th>Day</th><th>Hours</th><th>Kitchen</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Monday – Thursday</td><td>8:00am – 11:00pm</td><td>Until 10:30pm</td></tr>
+          <tr><td>Friday</td><td>8:00am – 12:00am</td><td>Until 11:00pm</td></tr>
+          <tr><td>Saturday – Sunday</td><td>9:00am – 12:00am</td><td>Until 11:00pm</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <h4>Kahani Coffee House</h4>
+      <p>A small coffeehouse on MM Alam Road, built around good beans and better conversation.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Visit</h4>
+      <p>12 MM Alam Road, Gulberg III, Lahore<br>Open daily, 8am – 11pm<br>+92 300 1234567</p>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>&copy; <span class="current-year">2026</span> Kahani Coffee House. All rights reserved.</span>
+    <span>Instagram &middot; Facebook &middot; TikTok</span>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

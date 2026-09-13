@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Kahani Coffee House</title>
+<meta name="description" content="Get in touch with Kahani Coffee House — find our location, hours, and send us a message.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav wrap">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">Kahani</span>
+      <span class="brand-sub">Coffee House</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<main>
+
+  <section class="wrap">
+    <p class="eyebrow">Say hello</p>
+    <h1 style="max-width: 16ch;">We'd like to hear your kahani too.</h1>
+    <p class="lede">Questions, catering enquiries, or just want to tell us about your order — the form below reaches the counter directly.</p>
+  </section>
+
+  <section class="wrap">
+    <div class="contact-layout">
+
+      <form class="contact-form" novalidate>
+        <div class="field">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+          <span class="field-error" role="alert"></span>
+        </div>
+        <div class="field">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+          <span class="field-error" role="alert"></span>
+        </div>
+        <div class="field">
+          <label for="phone">Phone number (optional)</label>
+          <input type="tel" id="phone" name="phone" placeholder="03xx xxxxxxx">
+          <span class="field-error" role="alert"></span>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="How can we help?" required></textarea>
+          <span class="field-error" role="alert"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Send message</button>
+        <p class="form-status" role="status"></p>
+      </form>
+
+      <div>
+        <div class="info-card">
+          <h4>Visit us</h4>
+          <p>12 MM Alam Road, Gulberg III, Lahore, Pakistan</p>
+        </div>
+        <div class="info-card">
+          <h4>Talk to us</h4>
+          <p>+92 300 1234567<br>hello@kahanicoffee.pk</p>
+        </div>
+        <div class="info-card">
+          <h4>Hours</h4>
+          <p>Mon – Thu: 8am – 11pm<br>Fri: 8am – 12am<br>Sat – Sun: 9am – 12am</p>
+        </div>
+        <div class="map-frame">
+          <iframe
+            title="Kahani Coffee House location map"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=74.348%2C31.505%2C74.360%2C31.513&layer=mapnik"
+            loading="lazy">
+          </iframe>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <h4>Kahani Coffee House</h4>
+      <p>A small coffeehouse on MM Alam Road, built around good beans and better conversation.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Visit</h4>
+      <p>12 MM Alam Road, Gulberg III, Lahore<br>Open daily, 8am – 11pm<br>+92 300 1234567</p>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>&copy; <span class="current-year">2026</span> Kahani Coffee House. All rights reserved.</span>
+    <span>Instagram &middot; Facebook &middot; TikTok</span>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

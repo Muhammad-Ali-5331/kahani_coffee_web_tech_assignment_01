@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery — Kahani Coffee House</title>
+<meta name="description" content="A look inside Kahani Coffee House — the room, the roast, the counter.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav wrap">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">Kahani</span>
+      <span class="brand-sub">Coffee House</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<main>
+
+  <section class="wrap">
+    <p class="eyebrow">A look inside</p>
+    <h1 style="max-width: 16ch;">The room, the roast, the regulars.</h1>
+    <p class="lede">Tap any tile for a closer look and the story behind it.</p>
+  </section>
+
+  <section class="wrap">
+    <div class="gallery-grid">
+      <button class="gallery-item" style="--tile-a:#C9A15A; --tile-b:#B5533C;" data-title="The roasting corner" data-desc="Our drum roaster runs every Tuesday morning, filling the room with the smell of first crack.">
+        <span>The roast</span>
+      </button>
+      <button class="gallery-item" style="--tile-a:#6B7A5E; --tile-b:#2B1B14;" data-title="Window seats" data-desc="The long window bench is the first table to fill up on weekend mornings.">
+        <span>Window seats</span>
+      </button>
+      <button class="gallery-item" style="--tile-a:#B5533C; --tile-b:#8F3E2C;" data-title="The pour-over bar" data-desc="Guests can watch their coffee brewed to order, one cup at a time.">
+        <span>Pour-over bar</span>
+      </button>
+      <button class="gallery-item" style="--tile-a:#2B1B14; --tile-b:#6B7A5E;" data-title="Fresh from the oven" data-desc="Cardamom buns come out at 7am sharp and rarely last past 9.">
+        <span>Fresh bakes</span>
+      </button>
+      <button class="gallery-item" style="--tile-a:#C9A15A; --tile-b:#6B7A5E;" data-title="Weekend crowd" data-desc="Saturday mornings mean a full room, board games, and a longer wait for the good chairs.">
+        <span>Weekend mornings</span>
+      </button>
+      <button class="gallery-item" style="--tile-a:#8F3E2C; --tile-b:#C9A15A;" data-title="Green bean store" data-desc="Every sack is labelled with farm, harvest year, and the date it arrived at our door.">
+        <span>Green bean store</span>
+      </button>
+      <button class="gallery-item" style="--tile-a:#6B7A5E; --tile-b:#B5533C;" data-title="The counter team" data-desc="The same faces greet you most mornings — we like it that way.">
+        <span>The counter</span>
+      </button>
+      <button class="gallery-item" style="--tile-a:#2B1B14; --tile-b:#C9A15A;" data-title="Evening light" data-desc="Golden hour through the front windows is the best time for a slow cup.">
+        <span>Evening light</span>
+      </button>
+    </div>
+  </section>
+
+</main>
+
+<div class="modal-overlay">
+  <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <button class="modal-close" aria-label="Close image details">&times;</button>
+    <div class="modal-image"></div>
+    <h3 class="modal-title" id="modal-title"></h3>
+    <p class="modal-desc"></p>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <h4>Kahani Coffee House</h4>
+      <p>A small coffeehouse on MM Alam Road, built around good beans and better conversation.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Visit</h4>
+      <p>12 MM Alam Road, Gulberg III, Lahore<br>Open daily, 8am – 11pm<br>+92 300 1234567</p>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>&copy; <span class="current-year">2026</span> Kahani Coffee House. All rights reserved.</span>
+    <span>Instagram &middot; Facebook &middot; TikTok</span>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
