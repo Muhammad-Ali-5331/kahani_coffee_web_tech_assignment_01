@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const navToggle = document.querySelector('.nav-toggle');
   const navLinks = document.querySelector('.nav-links');
 
+  // Toggle the mobile menu open/closed
   if (navToggle && navLinks) {
     navToggle.addEventListener('click', function () {
       const isOpen = navLinks.classList.toggle('is-open');
